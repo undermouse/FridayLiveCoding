@@ -5,3 +5,7 @@ html {
 body {
     font-family: 'Red Hat Text', sans-serif;
 }
+
+h1 {
+    color: #000;
+}
