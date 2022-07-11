@@ -1,0 +1,20 @@
+{
+  "name": "fridaylivecoding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "style": "sass --watch sass/style.scss sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/undermouse/FridayLiveCoding.git"
+  },
+  "author": "plur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/undermouse/FridayLiveCoding/issues"
+  },
+  "homepage": "https://github.com/undermouse/FridayLiveCoding#readme"
+}
