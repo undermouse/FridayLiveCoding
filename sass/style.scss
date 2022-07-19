@@ -1,5 +1,7 @@
 // Base
 @import "base/normalize";
+@import "base/icons";
+@import "base/tags";
 
 // Abstracts
 @import "abstract/constants";
@@ -14,11 +16,16 @@
 // Layouts
 @import "layout/wrapper";
 @import "layout/header";
+@import "layout/columns";
 
 // Components
 @import "components/contact-us";
 @import "components/promo";
 @import "components/navigation";
+@import "components/tools";
+@import "components/strategies";
+@import "components/about-us";
+
 
 
 
