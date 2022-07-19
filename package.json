@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/undermouse/FridayLiveCoding/issues"
   },
-  "homepage": "https://github.com/undermouse/FridayLiveCoding#readme"
+  "homepage": "https://github.com/undermouse/FridayLiveCoding#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }

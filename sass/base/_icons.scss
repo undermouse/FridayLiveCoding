@@ -1,0 +1,84 @@
+@import "../abstract/constants"; 
+
+.ico {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.icon-square {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+   
+    &_violet {
+        background-color: $color-violet;
+    }
+    &_yellow {
+        background-color: $color-yellow;
+    }
+    &_red {
+        background-color: $color-red;
+    }
+    &_blue {
+        background-color: $color-blue;
+    }
+}
+
+.ico_arrow {
+    background-image: url("../../img/icons/arrow.svg");
+    width: 18px;
+    height: 17px;
+    background-repeat: no-repeat;
+    margin-left: 7px;
+}
+
+.ico_snake {
+    background-image: url("../../img/icons/snake.svg");
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 17px;
+}
+
+.ico_heart {
+    background-image: url("../../img/icons/heart.svg");
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 17px;
+    margin-left: 2px;
+    margin-top: 3px;
+}
+
+.ico_clocks {
+    background-image: url("../../img/icons/clocks.svg");
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 17px;
+    margin-left: 5px;
+}
+
+
+.ico_play {
+    background-image: url("../../img/icons/ico_play.svg");
+    width: 18px;
+    height: 17px;
+}
+
+.ico_email, .ico_phone {
+    width: 35px;
+    height: 35px;
+    background-color: $color-light;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.phone, .mail {
+    width: 15px;
+    height: 15px;
+}
+
