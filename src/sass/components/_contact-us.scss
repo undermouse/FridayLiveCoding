@@ -1,6 +1,15 @@
 .contact-us {
     background: $color-background;
-    padding: 62px 82px;
+    padding: 62px 0;
+    @include media-tablet {
+        text-align: center;
+    }
+}
+
+.contact-us-container {
+    @include media-tablet {
+        flex-direction: column;
+    }
 }
 
 .contact-us__form {
@@ -26,11 +35,21 @@
 
 .contact-us__line {
     margin-bottom: 19px;
+    @include media-mobile {
+        flex-direction: column;
+        margin-bottom: 0;
+        > * {
+            margin-bottom: 19px;
+        }
+    }
 }
 
 .contact-us__button {
     > * {
         min-width: 117px;
+    }
+    @include media-mobile {
+        margin-top: 19px;
     }
 }
 
@@ -48,5 +67,8 @@
         color: $color-text;
         @include font(2.5rem, 2.6rem, normal, 400);
         margin-left: 10px;
+    }
+    @include media-tablet {
+        max-width: 100%;
     }
 }

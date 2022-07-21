@@ -12,7 +12,10 @@ body {
 
 h1 {
     @extend %font-add;
-    @include font(4.4rem, 5.4rem, $weight: 700)
+    @include font(4.4rem, 5.4rem, $weight: 700);
+    @include media-mobile {
+        @include font(3.2rem, 4.2rem, $weight: 700);
+    };
 }
 
 h2 {
