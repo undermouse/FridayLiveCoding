@@ -3,17 +3,15 @@
 @import "../../src/sass/base/icons";
 @import "../../src/sass/base/tags";
 @import "../../src/sass/base/modal";
+@import "../../src/sass/base/base";
+@import "../../src/sass/base/buttons";
+@import "../../src/sass/base/logo";
+@import "../../src/sass/base/hamburger";
 
 // Abstracts
 @import "../../src/sass/abstract/constants";
 @import "../../src/sass/abstract/mixins";
 @import "../../src/sass/abstract/placeholders";
-
-// Base
-@import "../../src/sass/base/base";
-@import "../../src/sass/base/buttons";
-@import "../../src/sass/base/logo";
-@import "../../src/sass/base/hamburger";
 
 // Layouts
 @import "../../src/sass/layout/wrapper";

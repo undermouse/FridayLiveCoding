@@ -457,25 +457,6 @@ section, main, footer, header, article {
   pointer-events: none;
 }
 
-.footer-navigation__links a, .strategy:hover, .navigation__link, .logo-path {
-  transition: all 0.3s ease-out;
-}
-
-.footer-navigation__links, .footer-navigation__title, .promo__text, .link-button, h1 {
-  font-family: "Poppins", Verdana, sans-serif;
-}
-
-.modal::-webkit-scrollbar {
-  width: 5px;
-}
-.modal::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 1px grey;
-}
-.modal::-webkit-scrollbar-thumb {
-  background: #7752BE;
-  border-radius: 10px;
-}
-
 html {
   scroll-behavior: smooth;
   font-size: 10px;
@@ -624,6 +605,25 @@ h5 {
 .hamburger__line {
   top: calc(50% - 1.5px);
   left: 0;
+}
+
+.footer-navigation__links a, .strategy:hover, .navigation__link, .logo-path {
+  transition: all 0.3s ease-out;
+}
+
+.footer-navigation__links, .footer-navigation__title, .promo__text, h1, .link-button {
+  font-family: "Poppins", Verdana, sans-serif;
+}
+
+.modal::-webkit-scrollbar {
+  width: 5px;
+}
+.modal::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey;
+}
+.modal::-webkit-scrollbar-thumb {
+  background: #7752BE;
+  border-radius: 10px;
 }
 
 .wrapper {
@@ -1029,6 +1029,28 @@ h5 {
 .strategy__name {
   margin: 0 0 29px;
   text-align: left;
+}
+
+.article-modal__content .strategy__image {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .article-modal__content .strategy__image {
+    position: static;
+  }
+}
+.article-modal__content .strategy__date {
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.4rem;
+  margin: 0 0 5px;
+}
+.article-modal__content .strategy__name {
+  margin-bottom: 10px;
+}
+.article-modal__content .strategy__text {
+  margin: 0 0 12px;
 }
 
 .about-us {
