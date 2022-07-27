@@ -82,9 +82,9 @@ window.onload = function() {
     // Tags
     addTagsClickHandler();
 
-    // Generate base mdoal from Modal class
+    // Generate base modal from Modal class
     addToolsClickHandler();
-
+ 
 }
 
 const addTagsClickHandler = () => {
@@ -189,6 +189,6 @@ const addStrategieClickHandler = () => {
     const renderArticleModalWindow = (article) => {
         let modal = new ArticleModal ('article-modal', article);
        
-        modal.renderModal();
+        modal.renderModal(); 
     }
 }
