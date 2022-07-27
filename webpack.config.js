@@ -24,7 +24,7 @@ module.exports = (env, options) => {
 
     const config = {
         mode: isProduction ? 'production' : 'development',
-        // devtool: isProduction ? 'none' : 'source-map',
+        devtool: 'source-map',
         watch: !isProduction,
         entry: ['./src/index.js', './src/sass/style.scss'],
         output: {
@@ -49,7 +49,7 @@ module.exports = (env, options) => {
                         MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader' 
                     ]
                 }, {
-                    test: /\.(png|svg|jpe?g|gif)$/,
+                    test: /\.(png|svg|jpe?g|gif)$/i,
                     use: [
                         {
                             loader: 'file-loader',
